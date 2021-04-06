@@ -68,7 +68,7 @@ header a {
 /* Landing */
 /* =================== */
 .landing {
-  background-image: url("/public/app.jpg");
+  background-image: url("./public/app.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 100px;
