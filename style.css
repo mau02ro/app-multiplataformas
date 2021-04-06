@@ -1,0 +1,213 @@
+body,
+html {
+  scroll-behavior: smooth;
+}
+h3,
+h2,
+h5 {
+  color: #2d294e;
+}
+.wrapper {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 110px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+  /* color: rgb(61, 61, 61);
+   */
+  color: #fff;
+}
+.logo span {
+  background-color: #4b43bd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 1.9rem;
+  margin-right: 10px;
+  color: #fff;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header ul li {
+  margin-left: 35px;
+}
+header a {
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: #ffffff !important;
+}
+
+/* =================== */
+/* Landing */
+/* =================== */
+.landing {
+  background-image: url("/public/app.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  background-position-x: 90%;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.landing > div {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.landing_content {
+  width: 50%;
+}
+.landing h1 {
+  font-weight: bold;
+  font-size: 3.5rem;
+  color: #fff;
+}
+.landing p {
+  color: #dadada;
+}
+/* =================== */
+/* Landing */
+/* =================== */
+
+/* =================== */
+/* About */
+/* =================== */
+#about {
+  min-height: 100vh;
+  padding: 60px 0;
+}
+.about_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about_content img {
+  width: 500px !important;
+}
+h2 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+.about_v {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+.card {
+  width: 22rem !important;
+  box-shadow: 0px 0px 10px #8263d23a;
+  border-color: #8263d28a;
+}
+/* .about_v .card:nth-child(1) {
+  border-color: #8363d2;
+}
+.about_v .card:nth-child(2) {
+  border-color: #5045bf;
+}
+.about_v .card:nth-child(3) {
+  border-color: #3c3ab7;
+} */
+
+/* =================== */
+/* About */
+/* =================== */
+
+/* =================== */
+/* Tecg */
+/* =================== */
+.tec {
+  padding: 60px 0;
+}
+.about_tec-one,
+.about_tec-two {
+  display: flex;
+  justify-content: space-between;
+}
+.about_tec-two {
+  flex-direction: row-reverse;
+}
+.about_tec-one img,
+.about_tec-two img {
+  width: 400px;
+}
+.about_tec-one > div {
+  padding: 0 30px 0 60px;
+}
+.about_tec-two > div {
+  padding: 0 60px 0 30px;
+}
+.tec_icons {
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+}
+.tec_icons span {
+  display: inline-block;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #dadada;
+  border-radius: 3px;
+  padding: 0 10px;
+}
+.tec_icons img {
+  width: 30px;
+  margin-right: 5px;
+}
+/* =================== */
+/* Tecg */
+/* =================== */
+
+footer {
+  background: #dfdfdf;
+  padding: 60px 0;
+}
+footer div {
+  display: flex;
+  justify-content: space-between;
+}
+footer ul {
+  display: flex;
+  list-style: none;
+}
+footer ul li {
+  margin-left: 35px;
+}
+footer a {
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: #292929 !important;
+}
